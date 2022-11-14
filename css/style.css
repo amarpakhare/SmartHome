@@ -9,6 +9,13 @@
 
 }
 
+html,
+body {
+      max-width: 100%;
+      overflow-x: hidden;
+}
+
+
 /* ===================================Navbar============================== */
 .active {
       color: #000;
@@ -22,6 +29,7 @@
       justify-content: auto;
       align-items: center;
       font-family: 'Montserrat';
+      border-radius: 0 0 15px 15px;
 
 }
 
@@ -50,7 +58,8 @@
 }
 
 .navbar-nav {
-      padding-left: 40%;
+      padding-left: 30%;
+      margin-right: 25px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       /* grid-template-rows: 1; */
@@ -59,3 +68,102 @@
 }
 
 /* =======================================Ferro-Blocks========================== */
+
+.branding {
+      /* FERRO BLOCKS */
+      position: absolute;
+      width: 1149px;
+      height: 437px;
+      left: 385px;
+      top: 199px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 200px;
+      line-height: 101.9%;
+      /* or 306px */
+      letter-spacing: 0.01em;
+
+      color: #913E39;
+}
+
+.branding-blocks {
+      position: absolute;
+      width: 1149px;
+      height: 437px;
+      left: 3px;
+      top: 120px;
+
+      font-weight: 400;
+      font-size: 100px;
+
+}
+
+.right-arrow1 {
+      position: absolute;
+      width: 84px;
+      height: 84px;
+      left: 720px;
+      top: 500px;
+}
+
+.right-arrow2 {
+      position: absolute;
+      width: 84px;
+      height: 84px;
+      left: 720px;
+      top: 550px;
+}
+
+/* ================================Details============================= */
+
+.rec1 {
+      box-sizing: border-box;
+
+      position: absolute;
+      width: 443px;
+      height: 328px;
+      left: 201px;
+      top: 800px;
+}
+
+.rec2 {
+      box-sizing: border-box;
+      position: absolute;
+      width: 380px;
+      height: 270px;
+      left: 600px;
+      top: 950px;
+}
+
+.rec3 {
+      box-sizing: border-box;
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      left: 930px;
+      top: 1100px;
+}
+
+.arrow {
+      position: absolute;
+      width: 300px;
+      height: 150px;
+      left: 660px;
+      top: 790px;
+}
+
+.details-text {
+      font-family: 'Montserrat';
+      color: #913E39;
+      font-weight: 700;
+      font-size: 30px;
+      text-shadow: -10px 9px 8px rgba(0, 0, 0, 0.25);
+
+      position: absolute;
+      width: 130px;
+      height: 36px;
+      left: 980px;
+      top: 810px;
+}
